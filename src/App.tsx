@@ -1,12 +1,13 @@
-import { useState } from 'react'
+import Form from "./components/Form"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1 className='text-red-700'>Hello word!</h1>
-    </>
+    <div className="flex justify-center items-center bg-stone-300 h-screen w-screen">
+      <div>
+        <Form/>
+      </div>
+    </div>
   )
 }
 
